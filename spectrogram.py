@@ -23,3 +23,8 @@ def create_spectrogram(audio_file, output_file):
 
     print(f"Spectrogram saved as {output_file}")
 
+# Example usage
+input_file = "path/to/your/audio/file.mp3"  # Replace with your audio file path
+output_file = "spectrogram.png"  # Output image file name
+
+create_spectrogram(input_file, output_file)
